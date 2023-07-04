@@ -1,0 +1,28 @@
+{
+  "name": "am-watermark",
+  "version": "1.0.1",
+  "description": "一款Vue3的水印组件、支持指令和组件使用",
+  "main": "dist/index.js",
+  "types": "dist/components/watermark/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "watermark",
+    "WateMark",
+    "vue3-watermark"
+  ],
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^3.0.3",
+    "vue-tsc": "^1.4.2"
+  }
+}
